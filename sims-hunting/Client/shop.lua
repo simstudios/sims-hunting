@@ -41,7 +41,7 @@ end)
 
 --- Functions
 function Shop()
-	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'badulaque', {
+	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'shop', {
 		title    = Language['shoptitle'],
 		align    = Config.Align,
 		elements = {
@@ -112,7 +112,7 @@ function sell()
 			})
 		end
 	end
-	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'pawnshop', {
+	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'sell', {
 		title    = Language['shoptitle'],
 		align    = Config.Align,
 		elements = elements
